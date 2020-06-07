@@ -24,6 +24,7 @@
     // ignore large files for VSCode sync
     "files.watcherExclude": {
         "**/bin/**": true, "**/include/**":true, "**/lib*/**":true, "**/share/**":true,
+        "**/doc/**": true,
         "nimde":true,
     },
 

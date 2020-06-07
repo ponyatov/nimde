@@ -30,7 +30,7 @@ debian:
 
 .PHONY: master shadow release zip
 
-MERGE  = Makefile README.md .gitignore .vscode apt.txt requirements.txt
+MERGE  = Makefile README.md .gitignore .vscode apt.txt doc
 MERGE += src tests $(MODULE).nimble
 
 master:
